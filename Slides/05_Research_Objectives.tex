@@ -1,0 +1,16 @@
+% Slides/05_Research_Objectives.tex
+
+\section{RESEARCH OBJECTIVES}
+
+\begin{frame}{Research Aim and Technical Objectives}
+    \begin{block}{Main Objective}
+        To design a lightweight and privacy-friendly framework for continuous behavioral biometric authentication that efficiently addresses the trade-off between recognition performance, system delay, and template revocability[cite: 118].
+    \end{block}
+    
+    \begin{itemize}
+        \item \textbf{Privacy-Preserving Pipeline:} Develop a mechanism using Keyed-JL Projections to transform high-dimensional multimodal features into a mathematically irreversible and revocable subspace.
+        \item \textbf{Multimodal Behavioral Fusion:} Combine independent keystroke and mouse dynamics into coordinated Keystroke and Mouse Trajectory (KMT) units to increase user profile entropy.
+        \item \textbf{Lightweight Anomaly Detection:} Implement a server-side Deep SVDD classifier to distinguish legitimate users from impostors by learning a compact hypersphere boundary[cite: 122].
+        \item \textbf{Trade-off Evaluation:} Quantify the impact of projection dimension $k$ on authentication performance (EER), targeting sub-200ms latency and resistance to recovery attacks.
+    \end{itemize}
+\end{frame}

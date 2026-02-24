@@ -1,0 +1,98 @@
+% Slides/06_02_Proposed_Methodology.tex
+
+\section{PROPOSED METHODOLOGY}
+
+% Ensure colors are defined for the blocks
+\definecolor{myblue}{HTML}{D1E8FF}
+\definecolor{myorange}{HTML}{FFEDD5}
+\definecolor{mygreen}{HTML}{DCFCE7}
+\definecolor{mypurple}{HTML}{F3E8FF}
+
+\begin{frame}{Detailed System Architecture}
+    \vspace{-0.6cm} 
+    \begin{columns}[T] % [T] aligns columns at the top
+        % --- Left Column: Architecture Diagram (Increased width to 60%) ---
+        \begin{column}{0.55\textwidth}
+    \begin{figure}
+        \centering
+        \resizebox{0.9\textwidth}{!}{%
+        \begin{tikzpicture}[
+            scale=0.5, transform shape, % Reduced global scale
+            auto,
+            node distance = 0.6cm and 1.5cm, % Tightened spacing
+            input/.style = {rectangle, draw, fill=myblue, text centered, rounded corners, minimum height=0.6cm, minimum width=3.5cm, font=\small\bfseries},
+            process/.style = {rectangle, draw, fill=myorange, text centered, minimum height=1.1cm, minimum width=4.0cm, align=center, font=\footnotesize},
+            privacy/.style = {rectangle, draw, fill=mygreen, text centered, line width=1pt, minimum height=2.0cm, minimum width=4.5cm, align=center, font=\footnotesize},
+            model/.style = {rectangle, draw, fill=mypurple, text centered, rounded corners, minimum height=1.4cm, minimum width=4.2cm, align=center, font=\footnotesize},
+            decision/.style = {diamond, draw, fill=yellow!10, text centered, aspect=2, minimum width=2.8cm, minimum height=1.2cm, font=\scriptsize\bfseries},
+            storage/.style = {cylinder, draw, shape border rotate=90, fill=gray!20, minimum height=0.9cm, minimum width=0.9cm, font=\tiny, align=center},
+            keynode/.style = {circle, draw, fill=red!15, line width=1pt, inner sep=1.5pt, font=\scriptsize\bfseries, align=center},
+            line/.style = {draw, -{Latex[length=2mm]}, thick}
+        ]
+
+        % --- Labels ---
+        \node [font=\large\bfseries, text=MatteBlue] at (-3.5, 0.7) {Client Side};
+        \node [font=\large\bfseries, text=red!80!black] at (3.5, -9.0) {Server Side};
+
+        % --- CLIENT SIDE NODES ---
+        \node [input] (raw) {Behavioral Data Streams};
+        \node [below=0.01cm of raw, font=\tiny\itshape] {(Keystroke \& Mouse Logs)};
+
+        \node [process, below=0.6cm of raw] (features) {Local Feature Extraction \& Fusion};
+
+        \node [privacy, below=0.9cm of features] (privacy) {
+            \textbf{Keyed Privacy Layer} \\ 
+            \scriptsize (Non-invertible Transformation) \\
+            \textbf{Keyed JL Projection Matrix} \\
+            \vspace{0.05cm}
+            \tiny $R_K \in \mathbb{R}^{k \times d} \quad Z = \frac{1}{\sqrt{k}} R_K X$
+        };
+
+        \node [keynode, left=0.8cm of privacy] (key) {Secret Key \\ $K$};
+        \node [storage, above=0.8cm of key] (db) {Local \\ Registry};
+
+        % Privacy Barrier (Adjusted position for compactness)
+        \draw [dashed, gray!80, line width=1pt] (-5.0, -6.0) -- (5.5, -6.0) node[right, font=\tiny\bfseries] {Privacy Barrier};
+
+        % --- SERVER SIDE NODES ---
+        \node [model, below=2.5cm of privacy] (svdd) {
+            \textbf{Deep SVDD Anomaly Detector} \\ 
+            \scriptsize One-Class Hypersphere Boundary \\ 
+            \vspace{0.05cm}
+            \tiny (Input: Projected Embedding $Z$)
+        };
+        
+        \node [decision, below=1.2cm of svdd] (decide) {Anomaly? $||Z - c||^2 > R$};
+
+        \node [rectangle, draw, fill=green!20, left=0.4cm of decide, rounded corners, minimum width=1.8cm, font=\tiny] (acc) {Authorized};
+        \node [rectangle, draw, fill=red!20, right=0.4cm of decide, rounded corners, minimum width=1.8cm, font=\tiny] (rej) {Blocked};
+
+        % --- CONNECTIONS ---
+        \draw [line] (raw) -- (features);
+        \draw [line] (features) -- node[right, scale=0.6] {Raw Vector ($X$)} (privacy);
+        \draw [line, MatteBlue, line width=1pt] (privacy) -- node[right, scale=0.5, text=black, align=left] {Embedding ($Z$)} (svdd);
+        \draw [line] (svdd) -- node[right, scale=0.5] {Score} (decide);
+        \draw [line, dashed, red] (key.east) -- (privacy.west);
+        \draw [line, {Latex}-{Latex}, red, bend left=45] (key) to node[left, scale=0.5] {Revoke} (db);
+        \draw [line] (decide.west) -- (acc.east);
+        \draw [line] (decide.east) -- (rej.west);
+        
+        \end{tikzpicture}
+        }
+    \end{figure}
+\end{column}
+
+        % --- Right Column: Technical Description (Narrowed to 38%) ---
+        \begin{column}{0.38\textwidth}
+            \vspace{0.5cm}
+            \begin{itemize}
+                \setlength{\itemsep}{6pt}
+                \item \scriptsize \textbf{Privacy-by-Design:} Raw data never leaves the local device, ensuring data minimization.
+                \item \scriptsize \textbf{Keyed Transformation:} Uses a secret key $K$ to generate non-invertible templates.
+                \item \scriptsize \textbf{Privacy Barrier:} Only projected embeddings ($Z$) cross the network to the server.
+                \item \scriptsize \textbf{One-Class Engine:} Deep SVDD detects anomalies without requiring imposter data.
+                \item \scriptsize \textbf{Template Revocability:} Compromised identities can be "reset" by local key renewal.
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}

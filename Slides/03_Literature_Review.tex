@@ -1,0 +1,28 @@
+% Slides/03_Literature_Review.tex
+
+\section{LITERATURE REVIEW}
+
+\begin{frame}{Evolution of Behavioral Authentication}
+    \begin{table}
+        \fontsize{6pt}{7.2pt}\selectfont % Adjusted for fit based on the 6 entries in the image
+        \centering
+        \begin{tabular}{lp{4.8cm}p{4.2cm}}
+            \toprule
+            \textbf{Reference Study} & \textbf{Key Contribution to This Project} & \textbf{Identified Gap / Limitation} \\
+            \midrule
+            Gaines et al. (1980) & Foundational Theory: Established typing rhythms (dwell/flight time) as unique for verification. & Relied on static, fixed-text passwords; insufficient for continuous authentication. \\
+            \midrule
+            Mondal \& Bours (2017) & Multimodal Fusion: Proved combining Keystroke and Mouse dynamics significantly reduces EER. & High-dimensional vectors created by concatenation slow down real-time processing. \\
+            \midrule
+            Kim et al. (2018) & Feature Engineering: Introduced "user-adaptive" features to improve personalized accuracy. & Lacked template protection or encryption to secure stored biometric data. \\
+            \midrule
+            Kim et al. (2024) & Deep SVDD Validation: Outperformed traditional models (6.7\% EER) via time-series to image encoding. & Restricted to mobile PINs; lacked multimodal fusion or cryptographic encryption (HE). \\
+            \midrule
+            Kiyani et al. (2020) & Continuous Authentication: Validated RNNs for ongoing user verification beyond just login. & Did not address high latency introduced when adding encryption to continuous streams. \\
+            \midrule
+            Rahman et al. (2021) & Scalability Metrics: Provided framework for measuring error rates as user database size increases. & Addressed scalability of accuracy but not the scalability of secure template storage. \\
+            \bottomrule
+        \end{tabular}
+        \caption{Summary of Key Related Studies }
+    \end{table}
+\end{frame}
