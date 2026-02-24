@@ -12,12 +12,12 @@
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\beamer@sectionpages {3}{3}}
 \headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\sectionentry {3}{PROBLEM AND SIGNIFICANCE}{4}{PROBLEM AND SIGNIFICANCE}{0}}
+\headcommand {\sectionentry {3}{LITERATURE REVIEW}{4}{LITERATURE REVIEW}{0}}
 \headcommand {\slideentry {3}{0}{1}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\beamer@sectionpages {4}{4}}
 \headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\sectionentry {4}{LITERATURE REVIEW}{5}{LITERATURE REVIEW}{0}}
+\headcommand {\sectionentry {4}{PROBLEM AND SIGNIFICANCE}{5}{PROBLEM AND SIGNIFICANCE}{0}}
 \headcommand {\slideentry {4}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@sectionpages {5}{5}}
@@ -47,7 +47,7 @@
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\beamer@sectionpages {10}{10}}
 \headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\sectionentry {10}{SCIENTIFIC CONTRIBUTION}{11}{SCIENTIFIC CONTRIBUTION}{0}}
+\headcommand {\sectionentry {10}{EXPECTED RESULTS AND CONTRIBUTIONS}{11}{EXPECTED RESULTS AND CONTRIBUTIONS}{0}}
 \headcommand {\slideentry {10}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\beamer@sectionpages {11}{11}}
@@ -57,7 +57,7 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\beamer@sectionpages {12}{12}}
 \headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\sectionentry {12}{PROJECT TIMELINE}{13}{PROJECT TIMELINE}{0}}
+\headcommand {\sectionentry {12}{PROJECT SCHEDULE}{13}{PROJECT SCHEDULE}{0}}
 \headcommand {\slideentry {12}{0}{1}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
 \headcommand {\beamer@sectionpages {13}{13}}
@@ -69,4 +69,4 @@
 \headcommand {\beamer@subsectionpages {14}{14}}
 \headcommand {\beamer@sectionpages {14}{14}}
 \headcommand {\beamer@documentpages {14}}
-\headcommand {\gdef \inserttotalframenumber {14}}
+\headcommand {\gdef \inserttotalframenumber {13}}

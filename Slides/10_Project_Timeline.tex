@@ -1,28 +1,77 @@
-% Slides/11_Project_Timeline.tex
+% Slides/10_Project_Timeline.tex
 
-\section{PROJECT TIMELINE}
+\section{PROJECT SCHEDULE}
 
-\begin{frame}{Official Project Milestones (2026)}
-    \centering
-    \begin{table}
-        \footnotesize
-        \begin{tabular}{ll}
-            \toprule
-            \textbf{Milestone} & \textbf{Target Date} \\
-            \midrule
-            Research Proposal Defense & February 25, 2026  \\
-            Submission of Introduction \& Literature Review & May 17, 2026  \\
-            Mid Review Presentation & May 27, 2026  \\
-            Submission of Methodology Chapter & August 9, 2026  \\
-            Submission of Full Project Report & September 27, 2026  \\
-            Final Presentation & October 19--20, 2026  \\
-            \bottomrule
-        \end{tabular}
-        \caption{Official Project Milestones [cite: 436]}
-    \end{table}
-    \vspace{0.3cm}
-    \begin{itemize}
-        \item \textbf{Current Phase:} Literature Review and Problem Refinement (Jan--May)[cite: 439].
-        \item \textbf{Upcoming:} System Design and Multimodal Feature Engineering (May--July)[cite: 447, 448].
-    \end{itemize}
+\begin{frame}{Project Timeline and Detailed Task Breakdown}
+    \begin{center}
+        \resizebox{0.95\textwidth}{!}{%
+        \begin{tikzpicture}[
+            node distance=0cm,
+            phase/.style={rectangle, draw=white, thick, text centered, font=\tiny\bfseries, minimum height=0.4cm},
+            labelnode/.style={anchor=east, font=\tiny\bfseries, text=MatteBlue}
+        ]
+            % --- Monthly Grid Header ---
+            \foreach \m [count=\i] in {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct} {
+                \node[phase, minimum width=1.1cm, fill=MatteBlue!10] (m\i) at (\i*1.1, 0) {\tiny \m};
+            }
+
+            % --- Task Blocks (Aligned with Proposal Sections) ---
+            % Phase 1: Literature & Gap Analysis (Jan - May)
+            \fill[myblue] (1.1, -0.6) rectangle (5.5, -0.2); 
+            \node[labelnode] at (0.8, -0.4) {Phase 1: Literature Review};
+            \node at (3.3, -0.4) {\fontsize{4pt}{5pt}\selectfont \textbf{Identify Gaps \& Problem Refinement}};
+
+            % Phase 2: Feature Engineering & Fusion (May - July)
+            \fill[myorange] (5.5, -1.1) rectangle (7.1, -0.7);
+            \node[labelnode] at (0.8, -0.9) {Phase 2: System Design};
+            \node at (6.3, -0.9) {\fontsize{4pt}{5pt}\selectfont \textbf{KMT Multimodal Fusion}};
+
+            % Phase 3: Model Architecture & Optimization (June - August)
+            \fill[mypurple] (6.1, -1.6) rectangle (8.3, -1.2);
+            \node[labelnode] at (0.8, -1.4) {Phase 3: Model Development};
+            \node at (7.2, -1.4) {\fontsize{4pt}{5pt}\selectfont \textbf{Deep SVDD + JL Integration}};
+
+            % Phase 4: Privacy & EER Evaluation (August - September)
+            \fill[mygreen] (7.7, -2.1) rectangle (9.3, -1.7);
+            \node[labelnode] at (0.8, -1.9) {Phase 4: Experimental Analysis};
+            \node at (8.5, -1.9) {\fontsize{4pt}{5pt}\selectfont \textbf{Robustness \& Latency Testing}};
+
+            % Phase 5: Documentation & Reporting (September - October)
+            \fill[gray!30] (8.8, -2.6) rectangle (11.0, -2.2);
+            \node[labelnode] at (0.8, -2.4) {Phase 5: Final Documentation};
+            \node at (9.9, -2.4) {\fontsize{4pt}{5pt}\selectfont \textbf{Final Report \& Plagiarism Checks}};
+
+            % --- Academic Milestones ---
+            \node[star, star points=5, fill=red, minimum size=6pt, inner sep=0pt] (D) at (2.2, 0.6) {}; 
+            \node[above=0.1cm of D, font=\tiny\bfseries, text=red] {Defense};
+            
+            \node[star, star points=5, fill=red, minimum size=6pt, inner sep=0pt] (FR) at (11.0, 0.6) {};
+            \node[above=0.1cm of FR, font=\tiny\bfseries, text=red] {Final Report};
+
+        \end{tikzpicture}
+        }
+    \end{center}
+
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \begin{block}{Phases 1 -- 3: Development}
+                \tiny
+                \begin{itemize}
+                    \item \textbf{Review:} Technical dichotomy between privacy and performance.
+                    \item \textbf{Design:} Multimodal feature fusion for coordinated behavioral units.
+                    \item \textbf{Dev:} Optimize ReLU activation and SVDD hypersphere boundaries.
+                \end{itemize}
+            \end{block}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \begin{block}{Phases 4 -- 5: Validation}
+                \tiny
+                \begin{itemize}
+                    \item \textbf{Evaluation:} Verify privacy robustness against template inversion attacks.
+                    \item \textbf{Analysis:} Formally characterize the privacy-latency trade-off.
+                    \item \textbf{Reporting:} Prepare final report and plagiarism checks.
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
 \end{frame}

@@ -1,11 +1,75 @@
 % Slides/07_Data_and_Experiments.tex
+
 \section{DATA AND EXPERIMENTS}
 
-\begin{frame}{Experimental Setup and Datasets}
-    \begin{itemize}
-        \item \textbf{Privacy Protection:} Verification of mathematical non-invertibility.
-        \item \textbf{Revocability:} Validation of local key renewal mechanisms.
-        \item \textbf{Latency:} Target sub-200ms processing threshold.
-        \item \textbf{Performance:} Benchmark against SU-AIS BB-MAS and CMU datasets.
-    \end{itemize}
+\begin{frame}{Multimodal Datasets and Evaluation Framework}
+    \begin{columns}[T]
+        % --- Left Column: Datasets & Figure ---
+        \begin{column}{0.55\textwidth}
+            \begin{block}{Hybrid Multi-Source Datasets}
+                \fontsize{6.5pt}{7.5pt}\selectfont
+                \begin{itemize}
+                    \item \textbf{SU-AIS BB-MAS:} Primary source for Deep SVDD training ($N=117$ subjects).
+                    \item \textbf{CMU Benchmark:} Baseline control for keystroke dynamics validation.
+                    \item \textbf{Edge Hill KMT:} Critical for multimodal fusion and trajectory analysis.
+                \end{itemize}
+            \end{block}
+
+            \begin{figure}[H]
+                \centering
+                \resizebox{0.95\textwidth}{!}{%
+                \begin{tikzpicture}[node distance=1cm, >=Latex, font=\small]
+                    % --- PANEL A: KEYSTROKE DYNAMICS ---
+                    \begin{scope}[local bounding box=PanelA]
+                        \node[anchor=center] at (3.5, 2.5) {\textbf{(a) Keystroke Timeline}};
+                        \draw[->, thick] (0,0) -- (7.5,0) node[right] {$t$};
+                        \draw[fill=myblue, draw=MatteBlue] (0.5,0) rectangle (2.0, 0.6) node[midway] {Key 'T'};
+                        \draw[fill=myblue, draw=MatteBlue] (4.5,0) rectangle (6.0, 0.6) node[midway] {Key 'H'};
+                        
+                        % Annotations
+                        \draw[decorate, decoration={brace, amplitude=5pt, mirror}, thick, red] 
+                            (0.5,-0.3) -- (2.0,-0.3) node[midway, below=5pt, red, scale=0.8] {\textbf{Dwell Time}};
+                        \draw[<->, thick, MatteBlue] (2.0, 0.3) -- (4.5, 0.3) node[midway, above, MatteBlue, scale=0.8] {\textbf{Flight Time}};
+                    \end{scope}
+
+                    % --- PANEL B: MOUSE DYNAMICS ---
+                    \begin{scope}[xshift=8.5cm, local bounding box=PanelB]
+                        \node[anchor=center] at (2.5, 2.5) {\textbf{(b) Mouse trajectory}};
+                        \draw[step=0.5cm, gray!10, very thin] (0,0) grid (5,2);
+                        \node[circle, fill=green!60!black, inner sep=2pt] (A) at (0.5, 0.5) {};
+                        \node[circle, fill=red!60!black, inner sep=2pt] (B) at (4.5, 2.0) {};
+                        \draw[dashed, thick, black] (A) -- (B);
+                        \draw[thick, MatteBlue] (A) .. controls (1.5, -0.5) and (3.5, 0.5) .. (B);
+                        \draw[<->, red] (2.5, 1.25) -- (2.3, 0.2) node[midway, right, scale=0.7] {Dev};
+                        \node[align=center, text=red!80!black, scale=0.8] at (2.5, -0.6) {\textit{Eff} $\propto \frac{Opt}{Act}$};
+                    \end{scope}
+
+                    \draw[gray, thick, dashed] (7.75, -0.5) -- (7.75, 2.8);
+                \end{tikzpicture}
+                }
+                \caption{\tiny Visual Representation of Biometric Features.}
+            \end{figure}
+        \end{column}
+
+        % --- Right Column: Metrics ---
+        \begin{column}{0.45\textwidth}
+            \vspace{-0.5em}
+            \begin{block}{Authentication Metrics}
+                \fontsize{7pt}{8pt}\selectfont
+                \begin{itemize}
+                    \item \textbf{EER:} Point where False Acceptance and False Rejection rates are equal.
+                    \item \textbf{FAR/FRR:} Standard frequency measures for unauthorized access and incorrect denials.
+                \end{itemize}
+            \end{block}
+
+            \begin{block}{Privacy and Efficiency}
+                \fontsize{7pt}{8pt}\selectfont
+                \begin{itemize}
+                    \item \textbf{Resistance to Attack:} Quantified by Reconstruction Error ($MSE_{recon}$).
+                    \item \textbf{Revocability:} Validation of uncorrelated templates via key renewal.
+                    \item \textbf{Latency ($L_{inf}$):} Total time from projection to decision ($<200$ms target).
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
 \end{frame}

@@ -3,14 +3,16 @@
 \section{RESEARCH OBJECTIVES}
 
 \begin{frame}{Research Aim and Technical Objectives}
-    \begin{block}{Main Objective}
-        To design a lightweight and privacy-friendly framework for continuous behavioral biometric authentication that efficiently addresses the trade-off between recognition performance, system delay, and template revocability[cite: 118].
-    \end{block}
-    
-    \begin{itemize}
-        \item \textbf{Privacy-Preserving Pipeline:} Develop a mechanism using Keyed-JL Projections to transform high-dimensional multimodal features into a mathematically irreversible and revocable subspace.
-        \item \textbf{Multimodal Behavioral Fusion:} Combine independent keystroke and mouse dynamics into coordinated Keystroke and Mouse Trajectory (KMT) units to increase user profile entropy.
-        \item \textbf{Lightweight Anomaly Detection:} Implement a server-side Deep SVDD classifier to distinguish legitimate users from impostors by learning a compact hypersphere boundary[cite: 122].
-        \item \textbf{Trade-off Evaluation:} Quantify the impact of projection dimension $k$ on authentication performance (EER), targeting sub-200ms latency and resistance to recovery attacks.
-    \end{itemize}
+    \begin{enumerate}
+        \fontsize{8.5pt}{10.5pt}\selectfont
+        \setlength{\itemsep}{6pt}
+        
+        \item \textbf{To design a privacy-preserving feature transformation pipeline:} Develop a mechanism using Keyed-\ac{JL} Projections that transforms high-dimensional multimodal features into a lower-dimensional subspace, ensuring templates are mathematically irreversible and revocable through key renewal.
+        
+        \item \textbf{To implement a multimodal behavioral fusion layer:} Combine independent keystroke dynamics (dwell/flight time) and mouse dynamics (velocity/curvature) into coordinated behavioral units (\ac{KMT}) to raise the entropy of the user profile.
+        
+        \item \textbf{To develop a lightweight server-side anomaly detection model:} Implement a \ac{Deep SVDD} classifier to distinguish users by learning a compact hypersphere boundary around projected privacy-preserving embeddings.
+        
+        \item \textbf{To evaluate the trade-off between privacy, accuracy, and latency:} Quantify the impact of projection dimension $k$ on authentication performance (\ac{EER}), system latency (target $<200$ms), and resistance to recovery attacks.
+    \end{enumerate}
 \end{frame}

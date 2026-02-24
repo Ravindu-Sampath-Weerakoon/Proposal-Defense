@@ -1,7 +1,7 @@
 PWD d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense
 INPUT C:\Users\Ravin\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\Defense_Presentation.tex
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.log
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.log
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamer.cls
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamer.cls
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerbasemodes.sty
@@ -260,7 +260,7 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamercolort
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerinnerthemedefault.sty
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerinnerthemedefault.sty
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamericonbook.pdf
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.pdf
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.pdf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamericonbook.pdf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamericonbook.pdf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamericonbook.20.pdf
@@ -315,6 +315,66 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.polar.code.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.polar.code.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
@@ -344,10 +404,10 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-bea
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-beamer.sto
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.aux
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.aux
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.aux
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.aux
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.aux
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.aux
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.aux
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.aux
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -356,13 +416,13 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
@@ -381,30 +441,20 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translat
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-English.dict
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-English.dict
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-English.dict
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.nav
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.nav
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.nav
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.nav
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.nav
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.nav
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT .\Slides\Title_Slide.tex
-INPUT .\Slides\Title_Slide.tex
-INPUT Slides\Title_Slide.tex
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT .\Slides\00_Outline.tex
@@ -426,17 +476,13 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
@@ -444,12 +490,9 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr
 INPUT .\Slides\01_Introduction.tex
 INPUT .\Slides\01_Introduction.tex
 INPUT Slides\01_Introduction.tex
-INPUT .\Slides\02_Problem_and_Significance.tex
-INPUT .\Slides\02_Problem_and_Significance.tex
-INPUT Slides\02_Problem_and_Significance.tex
-INPUT .\Slides\03_Literature_Review.tex
-INPUT .\Slides\03_Literature_Review.tex
-INPUT Slides\03_Literature_Review.tex
+INPUT .\Slides\02_Literature_Review.tex
+INPUT .\Slides\02_Literature_Review.tex
+INPUT Slides\02_Literature_Review.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
@@ -459,29 +502,60 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT .\Slides\03_Problem_and_Significance.tex
+INPUT .\Slides\03_Problem_and_Significance.tex
+INPUT Slides\03_Problem_and_Significance.tex
 INPUT .\Slides\04_Research_Gap.tex
 INPUT .\Slides\04_Research_Gap.tex
 INPUT Slides\04_Research_Gap.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\Slides\05_Research_Objectives.tex
 INPUT .\Slides\05_Research_Objectives.tex
 INPUT Slides\05_Research_Objectives.tex
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\Slides\06_01_Proposed_Methodology.tex
 INPUT .\Slides\06_01_Proposed_Methodology.tex
 INPUT Slides\06_01_Proposed_Methodology.tex
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\Slides\06_02_Proposed_Methodology.tex
@@ -489,13 +563,53 @@ INPUT .\Slides\06_02_Proposed_Methodology.tex
 INPUT Slides\06_02_Proposed_Methodology.tex
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\Slides\07_Data_and_Experiments.tex
 INPUT .\Slides\07_Data_and_Experiments.tex
 INPUT Slides\07_Data_and_Experiments.tex
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\Slides\08_Expected_Results_and_Contributions.tex
 INPUT .\Slides\08_Expected_Results_and_Contributions.tex
 INPUT Slides\08_Expected_Results_and_Contributions.tex
@@ -505,28 +619,29 @@ INPUT Slides\09_Limitations_and_Constraints.tex
 INPUT .\Slides\10_Project_Timeline.tex
 INPUT .\Slides\10_Project_Timeline.tex
 INPUT Slides\10_Project_Timeline.tex
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\Slides\11_Conclusion.tex
 INPUT .\Slides\11_Conclusion.tex
 INPUT Slides\11_Conclusion.tex
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.nav
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.toc
-OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.snm
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.aux
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
-INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\build\Defense_Presentation.out
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.nav
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.toc
+OUTPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.snm
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.aux
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
+INPUT d:\My University\CSC4996 Research\Proposal Defense Presentation\Proposal-Defense\%OUTDIR%\Defense_Presentation.out
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss8.pfb
@@ -537,10 +652,16 @@ INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam5.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam5.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam7.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam7.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm5.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm5.pfb
 INPUT C:\Users\Ravin\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb

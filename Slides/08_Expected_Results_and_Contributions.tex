@@ -1,13 +1,36 @@
-% Slides/09_Scientific_Contribution.tex
+% Slides/08_Expected_Results_and_Contributions.tex
 
-\section{SCIENTIFIC CONTRIBUTION}
+\section{EXPECTED RESULTS AND CONTRIBUTIONS}
 
-\begin{frame}{Contribution to Knowledge and Novelty}
-    \begin{itemize}
-        \item \textbf{Unified Lightweight Framework:} Introduction of a unified architecture addressing privacy, revocability, and efficient anomaly detection.
-        \item \textbf{Integration of Random Projection and DL:} Novel combination of JL projections with Deep SVDD for secure biometric template transformation[cite: 407, 412].
-        \item \textbf{Formal Trade-off Analysis:} Systematic evaluation of the relationship between dimensionality reduction, projection randomness, and authentication accuracy[cite: 405, 416].
-        \item \textbf{Alternative to Heavy Cryptography:} A computationally efficient solution providing a theoretical basis for privacy without the latency of HE or SMPC[cite: 414, 415].
-        \item \textbf{Edge-Deployable Architecture:} Advancement of research toward practical, continuous authentication for resource-constrained IoT and mobile environments[cite: 408, 417].
-    \end{itemize}
+\begin{frame}{Anticipated Outcomes and Novel Contributions}
+   \vspace{-1.5em}
+    \begin{columns}[T]
+        % --- Left Column: Expected Results ---
+        \begin{column}{0.50\textwidth}
+            \begin{block}{Expected Technical Outcomes}
+                \fontsize{8.5pt}{10.5pt}\selectfont
+                \begin{itemize}
+                    \setlength{\itemsep}{6pt}
+                    \item \textbf{Privacy Protection:} Mathematical proof that raw keystroke and mouse data cannot be reconstructed from templates.
+                    \item \textbf{Template Revocability:} Validation that compromised identities can be "reset" and re-issued via key renewal.
+                    \item \textbf{High-Efficiency Detection:} Empirical evidence of real-time anomaly detection suitable for edge devices.
+                    \item \textbf{Competitive Accuracy:} Authentication performance comparable to systems relying on raw templates.
+                \end{itemize}
+            \end{block}
+        \end{column}
+
+        % --- Right Column: Novelty & Impact ---
+        \begin{column}{0.50\textwidth}
+            \begin{block}{Novel Contributions}
+                \fontsize{8.5pt}{10.5pt}\selectfont
+                \begin{itemize}
+                    \setlength{\itemsep}{6pt}
+                    \item \textbf{Unified Architecture:} Integration of Keyed-JL random projections with Deep SVDD for behavioral biometrics.
+                    \item \textbf{Lightweight Alternative:} Provision of a computationally efficient alternative to heavy cryptographic methods.
+                    \item \textbf{Trade-off Characterization:} Analysis of the privacy-latency-accuracy trade-off using the JL Lemma.
+                    \item \textbf{Edge-Ready Design:} A framework specifically architected for resource-constrained IoT environments.
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
 \end{frame}

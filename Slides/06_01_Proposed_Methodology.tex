@@ -3,13 +3,13 @@
 \section{METHODOLOGY FOUNDATIONS}
 
 \begin{frame}{Theoretical and Technical Foundations}
-    \begin{columns}
+    \begin{columns}[T]
         % --- Left Column: JL Lemma ---
-        \begin{column}{0.5\textwidth}
+        \begin{column}{0.48\textwidth}
             \begin{figure}
                 \centering
-                \resizebox{\textwidth}{!}{%
-                \begin{tikzpicture}[scale=1.0, >=Latex]
+                \resizebox{0.85\textwidth}{!}{% Reduced size for better balance
+                \begin{tikzpicture}[scale=0.9, >=Latex]
                     % --- LEFT: HIGH-DIMENSIONAL SPACE (3D CUBE) ---
                     \begin{scope}[xshift=0cm]
                         \draw[gray, dashed] (1,1) -- (3,1) -- (3,3) -- (1,3) -- cycle;
@@ -25,14 +25,14 @@
                         \fill[blue] (h2) circle (2pt) node[above left, scale=0.7] {$x_2$};
                         \fill[blue] (h3) circle (2pt) node[right, scale=0.7] {$x_3$};
                         \draw[blue, dotted, thick] (h1) -- (h2);
-                        \node[align=center, scale=0.6] at (1.5, -0.8) {\textbf{High-Dimensional Space}\\ (Raw Data $R^d$)};
+                        \node[align=center, scale=0.6] at (1.5, -0.6) {\textbf{High-Dimensional Space}\\ (Raw Data $\mathbb{R}^d$)};
                     \end{scope}
 
                     % --- PROJECTION ARROW ---
-                    \draw[->, thick, dashed, orange] (2.8, 1.5) -- (5.0, 1.5) node[midway, above, text=black, scale=0.6] {Projection $R \times x$};
+                    \draw[->, thick, dashed, orange] (3.2, 1.5) -- (4.8, 1.5) node[midway, above, text=black, scale=0.5] {Proj $R \times x$};
 
                     % --- RIGHT: PROJECTED SUBSPACE (2D PLANE) ---
-                    \begin{scope}[xshift=5.5cm, yshift=0.5cm]
+                    \begin{scope}[xshift=5.2cm, yshift=0.5cm]
                         \fill[green!10] (0,0) -- (2,0) -- (3,1.5) -- (1,1.5) -- cycle;
                         \draw[thick, green!50!black] (0,0) -- (2,0) -- (3,1.5) -- (1,1.5) -- cycle;
                         \coordinate (p1) at (0.8, 0.4);
@@ -42,27 +42,29 @@
                         \fill[red] (p2) circle (2pt) node[above left, scale=0.7] {$f(x_2)$};
                         \fill[red] (p3) circle (2pt) node[right, scale=0.7] {$f(x_3)$};
                         \draw[red, dotted, thick] (p1) -- (p2);
-                        \node[align=center, scale=0.6] at (1.5, -0.8) {\textbf{Projected Subspace}\\ (Compressed $R^k$)};
+                        \node[align=center, scale=0.6] at (1.5, -0.6) {\textbf{Projected Subspace}\\ (Compressed $\mathbb{R}^k$)};
                     \end{scope}
                     
-                    \node[align=center, scale=0.6, fill=white, draw=gray, thin, rounded corners] at (3.5, -2.0) {
+                    \node[align=center, scale=0.6, fill=white, draw=gray, thin, rounded corners] at (3.5, -1.8) {
                         \textbf{JL Lemma Guarantee:} \\
                         $||f(x_1) - f(x_2)|| \approx ||x_1 - x_2||$
                     };
                 \end{tikzpicture}
                 }
-                \caption{\tiny JL Projection: Dimension reduction while preserving distances[cite: 138, 147].}
+                \caption{ JL Projection: Dimension reduction.}
             \end{figure}
+            \vspace{-0.3cm}
             \begin{itemize}
-                \item \tiny \textbf{Keyed-JL:} Uses secret key for mathematical irreversibility and revocability[cite: 156].
+                \item \textbf{Keyed-JL:} Uses secret key for mathematical irreversibility and revocability.
             \end{itemize}
         \end{column}
 
         % --- Right Column: Deep SVDD ---
-        \begin{column}{0.5\textwidth}
+        \begin{column}{0.48\textwidth}
+            \vspace{-4.0em}
             \begin{figure}
                 \centering
-                \resizebox{0.85\textwidth}{!}{%
+                \resizebox{0.75\textwidth}{!}{% Balanced with the left diagram
                 \begin{tikzpicture}[scale=0.8]
                     \tikzstyle{genuine}=[circle, fill=blue!70, inner sep=1.5pt]
                     \tikzstyle{imposter}=[regular polygon, regular polygon sides=3, fill=red!70, inner sep=1.2pt]
@@ -72,13 +74,14 @@
                     \foreach \x/\y in {0.2/0.5, -0.3/0.8, 0.8/-0.2, -0.5/-0.5, 1.0/0.3, -0.8/0.4} { \node[genuine] at (\x, \y) {}; }
                     \foreach \x/\y in {2.5/0.5, -2.6/1.0, 2.0/-2.2, -2.2/-1.5, 0.0/2.8} { \node[imposter] at (\x, \y) {}; }
                     \node[blue!80!black, scale=0.6] at (0, 2.3) {\textbf{Boundary (Hypersphere)}};
-                    \node[align=center, anchor=north, scale=0.5] at (0, -2.2) { \textit{Objective:} Minimize $R^2 + \frac{1}{\nu} \sum \xi_i$ };
+                    \node[align=center, anchor=north, scale=0.5] at (0, -2.2) { \textit{Objective:} $\min R^2 + \frac{1}{\nu} \sum \xi_i$ };
                 \end{tikzpicture}
                 }
-                \caption{\tiny Deep SVDD: Learning a compact boundary for legitimate users[cite: 158, 170].}
+                \caption{ Deep SVDD: Hypersphere boundary.}
             \end{figure}
+            \vspace{-0.3cm}
             \begin{itemize}
-                \item \tiny \textbf{Anomaly Detection:} Rejects any input falling outside the learned radius $R$[cite: 171, 172].
+                \item \textbf{Anomaly Detection:} Rejects any input falling outside the learned radius $R$.
             \end{itemize}
         \end{column}
     \end{columns}

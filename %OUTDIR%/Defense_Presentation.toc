@@ -1,13 +1,13 @@
 \beamer@sectionintoc {1}{OUTLINE}{2}{0}{1}
 \beamer@sectionintoc {2}{INTRODUCTION}{3}{0}{2}
-\beamer@sectionintoc {3}{PROBLEM AND SIGNIFICANCE}{4}{0}{3}
-\beamer@sectionintoc {4}{LITERATURE REVIEW}{5}{0}{4}
+\beamer@sectionintoc {3}{LITERATURE REVIEW}{4}{0}{3}
+\beamer@sectionintoc {4}{PROBLEM AND SIGNIFICANCE}{5}{0}{4}
 \beamer@sectionintoc {5}{RESEARCH GAP}{6}{0}{5}
 \beamer@sectionintoc {6}{RESEARCH OBJECTIVES}{7}{0}{6}
 \beamer@sectionintoc {7}{METHODOLOGY FOUNDATIONS}{8}{0}{7}
 \beamer@sectionintoc {8}{PROPOSED METHODOLOGY}{9}{0}{8}
 \beamer@sectionintoc {9}{DATA AND EXPERIMENTS}{10}{0}{9}
-\beamer@sectionintoc {10}{SCIENTIFIC CONTRIBUTION}{11}{0}{10}
+\beamer@sectionintoc {10}{EXPECTED RESULTS AND CONTRIBUTIONS}{11}{0}{10}
 \beamer@sectionintoc {11}{LIMITATIONS AND CONSTRAINTS}{12}{0}{11}
-\beamer@sectionintoc {12}{PROJECT TIMELINE}{13}{0}{12}
+\beamer@sectionintoc {12}{PROJECT SCHEDULE}{13}{0}{12}
 \beamer@sectionintoc {13}{CONCLUSION}{14}{0}{13}

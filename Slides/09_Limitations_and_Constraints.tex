@@ -1,13 +1,36 @@
-% Slides/10_Limitations_and_Constraints.tex
+% Slides/09_Limitations_and_Constraints.tex
 
 \section{LIMITATIONS AND CONSTRAINTS}
 
-\begin{frame}{Assumptions and Technical Constraints}
-    \begin{itemize}
-        \item \textbf{Modality Limitation:} The system is currently restricted to desktop inputs (KMT) and does not include mobile-specific biometrics.
-        \item \textbf{Data Availability:} Evaluation is bounded by the diversity and volume of data present in the selected benchmark datasets (BB-MAS and CMU).
-        \item \textbf{Latency vs. Privacy Bound:} A critical constraint exists in the trade-off between projection dimension $k$ and system performance, targeting $<200$ms.
-        \item \textbf{Behavioral Consistency:} Results assume that the primary user's typing and mouse usage patterns remain relatively stable during the study[cite: 273].
-        \item \textbf{Environmental Noise:} Variations in hardware peripherals (different keyboards or mice) may introduce noise affecting the Equal Error Rate (EER)[cite: 283].
-    \end{itemize}
+\begin{frame}{Research Assumptions and Technical Constraints}
+    \vspace{-1.5em}
+    \begin{columns}[T]
+        % --- Left Column: Foundational Assumptions ---
+        \begin{column}{0.50\textwidth}
+            \begin{block}{Foundational Assumptions}
+                \fontsize{8.5pt}{10.5pt}\selectfont
+                \begin{itemize}
+                    \setlength{\itemsep}{6pt}
+                    \item \textbf{Behavioral Stability:} Primary user patterns remain relatively stable over the study duration.
+                    \item \textbf{Secure Enrollment:} Initial user enrollment occurs in a verified, non-adversarial environment.
+                    \item \textbf{Key Integrity:} The secret projection key is stored securely on the client-side device.
+                    \item \textbf{Hardware Sufficiency:} Target devices possess sufficient memory to perform linear JL-projections.
+                \end{itemize}
+            \end{block}
+        \end{column}
+
+        % --- Right Column: Technical Constraints ---
+        \begin{column}{0.50\textwidth}
+            \begin{block}{Technical Constraints}
+                \fontsize{8.5pt}{10.5pt}\selectfont
+                \begin{itemize}
+                    \setlength{\itemsep}{6pt}
+                    \item \textbf{Modality Scope:} Limited to desktop inputs (KMT); does not include mobile-specific sensors.
+                    \item \textbf{Data Bounds:} Evaluation is restricted to the diversity present in the selected benchmark datasets.
+                    \item \textbf{Latency-Privacy Trade-off:} System must operate within a strict real-time bound of $<200$ms.
+                    \item \textbf{Environmental Noise:} Results may vary based on differences in physical hardware peripherals.
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
 \end{frame}

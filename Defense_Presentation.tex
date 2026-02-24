@@ -1,40 +1,46 @@
 \documentclass[10pt, aspectratio=64]{beamer}
 
-% --- Font: Clear & Professional Sans-Serif ---
+% --- Font & Encoding ---
 \usepackage[scaled]{helvet} 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{booktabs} % For professional tables [cite: 21]
+\usepackage{booktabs} 
 
 % --- Required Packages for Figures and TikZ ---
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc} % Required for Hyperspheres and Projection Cubes [cite: 24]
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar} 
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc} 
 \usepackage{graphicx}
-\usepackage{amsmath, amssymb} % For mathematical formulas like the Deep SVDD Objective [cite: 29]
-\usepackage{acronym}          % Required for \ac{JL} and other abbreviations [cite: 31]
+\usepackage{amsmath, amssymb} 
+\usepackage{acronym} 
 
-% --- Optional but recommended for professional layouts ---
+% --- Layout & Captions ---
 \usepackage{array}
 \usepackage{caption}
-\captionsetup[figure]{font=tiny, labelfont=tiny} % Ensures diagrams fit slide dimensions [cite: 24]
+\captionsetup[figure]{font=tiny, labelfont=tiny} 
 
-% --- Custom Matte Blue Color Palette ---
+% --- Custom Colors ---
 \definecolor{MatteBlue}{HTML}{1C395E} 
 \definecolor{White}{HTML}{FFFFFF}
+\definecolor{myblue}{HTML}{D1E8FF}
+\definecolor{myorange}{HTML}{FFEDD5}
+\definecolor{mygreen}{HTML}{DCFCE7}
+\definecolor{mypurple}{HTML}{F3E8FF}
 
 % --- Beamer Color Setup ---
 \setbeamercolor{palette primary}{bg=MatteBlue, fg=White}
 \setbeamercolor{frametitle}{bg=white, fg=MatteBlue}
 \setbeamercolor{structure}{fg=MatteBlue}
 
-% --- Header: Centered Section Title ---
+% --- Header & Footer Templates ---
 \setbeamertemplate{headline}{
     \begin{beamercolorbox}[wd=\paperwidth,ht=8.5ex,dp=4ex,center]{palette primary}
         \textbf{\small \insertsectionhead} 
     \end{beamercolorbox}
 }
 
-% --- Footer: Personal Details & Page Numbers ---
 \setbeamertemplate{footline}{
     \leavevmode%
     \hbox{%
@@ -48,25 +54,29 @@
          \hspace{1ex} \tiny \insertframenumber{} / \inserttotalframenumber \hspace*{2ex}
     \end{beamercolorbox}}%
 }
-
-% --- Remove Default Navigation ---
 \setbeamertemplate{navigation symbols}{}
 
 % --- Presentation Data ---
 \title[Privacy-Preserving Auth]{A LIGHTWEIGHT FRAMEWORK FOR PRIVACY-PRESERVING BEHAVIORAL AUTHENTICATION}
 \subtitle{Balancing Recognition Accuracy and System Latency}
-\author{W.M.T.R.S Weerakoon (S20545)}
+\author{W.M.T.R.S Weerakoon \\ (S20545)}
 \institute{Department of Statistics and Computer Science \\ University of Peradeniya, Sri Lanka}
 \date{February 25, 2026}
 
 \begin{document}
 
+% --- HIDDEN ACRONYM REGISTRATION ---
+% This must be inside document but set to no height so it doesn't show
+\begin{frame}[plain,noframenumbering]
+    
+    \titlepage
+\end{frame}
+
 % --- Slide Inputs ---
-\input{Slides/Title_Slide.tex}
 \input{Slides/00_Outline.tex}
 \input{Slides/01_Introduction.tex}
-\input{Slides/02_Problem_and_Significance.tex}
-\input{Slides/03_Literature_Review.tex}
+\input{Slides/02_Literature_Review.tex}
+\input{Slides/03_Problem_and_Significance.tex}
 \input{Slides/04_Research_Gap.tex}
 \input{Slides/05_Research_Objectives.tex}
 \input{Slides/06_01_Proposed_Methodology.tex}
